@@ -102,7 +102,7 @@ class HomePage extends StatelessWidget {
 
                           Get.to(
                             () => PlayeAudioScreen(
-                              songs: snapShot.data![index],
+                              songs: snapShot.data!,
                             ),
                             transition: Transition.leftToRight,
                           );
